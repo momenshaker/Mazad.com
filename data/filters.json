@@ -1,0 +1,80 @@
+{
+  "version": "2024-06-01",
+  "filters": {
+    "vehicles": [
+      { "key": "brand", "type": "select", "source": "vehicles.brands" },
+      { "key": "model", "type": "select", "source": "vehicles.models", "dependsOn": "brand" },
+      { "key": "year", "type": "range", "min": 1990, "max": 2026 },
+      { "key": "trim", "type": "select", "source": "vehicles.trims", "dependsOn": "model" },
+      { "key": "condition", "type": "segmented", "options": ["new", "used"], "default": "used" },
+      { "key": "mileage", "type": "range", "unit": "km", "visibleWhen": { "condition": "used" } },
+      { "key": "owners", "type": "number", "min": 1, "max": 5, "visibleWhen": { "condition": "used" } },
+      { "key": "accident_history", "type": "select", "options": ["no-accidents", "minor", "major"], "visibleWhen": { "condition": "used" } },
+      { "key": "warranty_status", "type": "select", "options": ["manufacturer", "extended", "none"], "visibleWhen": { "condition": "used" } },
+      { "key": "city", "type": "select", "options": ["riyadh", "jeddah", "dammam", "makkah", "medina"] }
+    ],
+    "real-estate": [
+      { "key": "property_type", "type": "select", "options": ["villa", "apartment", "townhouse", "compound", "plot"] },
+      { "key": "location_city", "type": "select", "options": ["riyadh", "jeddah", "dammam", "khobar", "makkah"] },
+      { "key": "price_range", "type": "range", "min": 50000, "max": 10000000, "unit": "sar" },
+      { "key": "bedrooms", "type": "number", "min": 1, "max": 10 },
+      { "key": "bathrooms", "type": "number", "min": 1, "max": 10 },
+      { "key": "area_sqm", "type": "range", "min": 50, "max": 2000, "unit": "sqm" },
+      { "key": "furnished", "type": "segmented", "options": ["yes", "no", "partially"] },
+      { "key": "available_from", "type": "date" },
+      { "key": "deed_verified", "type": "segmented", "options": ["verified", "pending"] }
+    ],
+    "luxury": [
+      { "key": "brand", "type": "select", "options": ["rolex", "patek-philippe", "cartier", "hermes", "louis-vuitton"] },
+      { "key": "condition", "type": "segmented", "options": ["new", "like-new", "excellent", "good"] },
+      { "key": "authenticity_docs", "type": "segmented", "options": ["certificate", "invoice", "none"] },
+      { "key": "year_of_purchase", "type": "range", "min": 1990, "max": 2024 },
+      { "key": "price_range", "type": "range", "min": 1000, "max": 500000, "unit": "sar" }
+    ],
+    "electronics": [
+      { "key": "category", "type": "select", "options": ["mobile", "laptop", "tablet", "tv", "gaming-console"] },
+      { "key": "brand", "type": "select", "options": ["apple", "samsung", "huawei", "lenovo", "sony", "microsoft"] },
+      { "key": "model", "type": "text" },
+      { "key": "storage_size", "type": "select", "options": ["64gb", "128gb", "256gb", "512gb", "1tb"] },
+      { "key": "condition", "type": "segmented", "options": ["new", "open-box", "used"] },
+      { "key": "warranty_remaining", "type": "number", "unit": "months" },
+      { "key": "price_range", "type": "range", "min": 200, "max": 20000, "unit": "sar" }
+    ],
+    "home-and-living": [
+      { "key": "subcategory", "type": "select", "options": ["furniture", "appliances", "kitchen", "decor", "outdoor"] },
+      { "key": "material", "type": "select", "options": ["wood", "metal", "leather", "fabric", "stone"] },
+      { "key": "color", "type": "select", "options": ["neutral", "dark", "light", "bold"] },
+      { "key": "condition", "type": "segmented", "options": ["new", "like-new", "used"] },
+      { "key": "dimension_notes", "type": "text" }
+    ],
+    "fashion": [
+      { "key": "gender", "type": "segmented", "options": ["men", "women", "kids", "unisex"] },
+      { "key": "size", "type": "select", "options": ["xs", "s", "m", "l", "xl", "xxl"] },
+      { "key": "brand", "type": "select", "options": ["gucci", "dior", "abercrombie", "namshi", "local-designer"] },
+      { "key": "condition", "type": "segmented", "options": ["new", "like-new", "gently-used"] },
+      { "key": "authenticity_docs", "type": "segmented", "options": ["certificate", "receipt", "none"] }
+    ],
+    "sports-and-outdoors": [
+      { "key": "equipment_type", "type": "select", "options": ["fitness", "team-sports", "outdoor", "cycling", "water"] },
+      { "key": "brand", "type": "select", "options": ["adidas", "nike", "decathlon", "giant", "specialized"] },
+      { "key": "condition", "type": "segmented", "options": ["new", "like-new", "used"] },
+      { "key": "usage_level", "type": "select", "options": ["beginner", "intermediate", "advanced"] },
+      { "key": "city", "type": "select", "options": ["riyadh", "jeddah", "dammam", "abha"] }
+    ],
+    "business-and-industrial": [
+      { "key": "category", "type": "select", "options": ["machinery", "tools", "office", "industrial", "wholesale"] },
+      { "key": "brand", "type": "text" },
+      { "key": "condition", "type": "segmented", "options": ["new", "refurbished", "used"] },
+      { "key": "power_requirement", "type": "text" },
+      { "key": "usage_hours", "type": "number", "visibleWhen": { "condition": "used" } },
+      { "key": "location_city", "type": "select", "options": ["riyadh", "jeddah", "jubail", "yanbu"] }
+    ],
+    "services": [
+      { "key": "service_type", "type": "select", "options": ["automotive", "home", "professional", "events", "logistics"] },
+      { "key": "coverage_city", "type": "select", "options": ["riyadh", "jeddah", "dammam", "medina", "makkah"] },
+      { "key": "availability", "type": "segmented", "options": ["weekdays", "weekends", "24-7"] },
+      { "key": "pricing_model", "type": "select", "options": ["fixed", "hourly", "quote"] },
+      { "key": "certifications", "type": "text" }
+    ]
+  }
+}

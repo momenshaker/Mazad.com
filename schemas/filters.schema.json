@@ -1,0 +1,59 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Mazad Filters",
+  "type": "object",
+  "required": ["version", "filters"],
+  "additionalProperties": false,
+  "properties": {
+    "version": { "type": "string" },
+    "filters": {
+      "type": "object",
+      "minProperties": 1,
+      "additionalProperties": {
+        "type": "array",
+        "items": { "$ref": "#/definitions/filter" }
+      }
+    }
+  },
+  "definitions": {
+    "filter": {
+      "type": "object",
+      "required": ["key", "type"],
+      "additionalProperties": false,
+      "properties": {
+        "key": { "type": "string", "pattern": "^[a-z0-9_-]+$" },
+        "type": {
+          "type": "string",
+          "enum": ["select", "range", "segmented", "number", "date", "text"]
+        },
+        "options": {
+          "type": "array",
+          "items": {
+            "anyOf": [
+              { "type": "string" },
+              {
+                "type": "object",
+                "required": ["value", "label"],
+                "properties": {
+                  "value": { "type": "string" },
+                  "label": { "type": "string" }
+                },
+                "additionalProperties": false
+              }
+            ]
+          }
+        },
+        "source": { "type": "string" },
+        "dependsOn": { "type": "string" },
+        "min": { "type": "number" },
+        "max": { "type": "number" },
+        "unit": { "type": "string" },
+        "default": { "type": ["string", "number"] },
+        "visibleWhen": {
+          "type": "object",
+          "additionalProperties": { "type": ["string", "number", "boolean"] }
+        }
+      }
+    }
+  }
+}
