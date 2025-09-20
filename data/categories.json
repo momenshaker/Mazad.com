@@ -1,0 +1,180 @@
+{
+  "version": "2024-06-01",
+  "categories": [
+    {
+      "slug": "vehicles",
+      "label": "Vehicles",
+      "description": "Cars, motorcycles, commercial vehicles, and parts trusted by Saudi buyers.",
+      "icon": "car",
+      "featuredFilters": ["brand", "model", "condition"],
+      "children": [
+        {
+          "slug": "cars",
+          "label": "Cars",
+          "description": "Sedans, SUVs, coupes, and pickups for every lifestyle.",
+          "children": [
+            { "slug": "sedan", "label": "Sedan" },
+            { "slug": "suv", "label": "SUV" },
+            { "slug": "coupe", "label": "Coupe" },
+            { "slug": "hatchback", "label": "Hatchback" },
+            { "slug": "pickup", "label": "Pickup" }
+          ]
+        },
+        {
+          "slug": "motorcycles",
+          "label": "Motorcycles",
+          "description": "Street, cruiser, and off-road bikes.",
+          "children": [
+            { "slug": "street", "label": "Street" },
+            { "slug": "cruiser", "label": "Cruiser" },
+            { "slug": "off-road", "label": "Off-Road" },
+            { "slug": "scooter", "label": "Scooter" }
+          ]
+        },
+        {
+          "slug": "commercial-vehicles",
+          "label": "Commercial Vehicles",
+          "description": "Fleet vans, buses, and trucks.",
+          "children": [
+            { "slug": "vans", "label": "Vans" },
+            { "slug": "buses", "label": "Buses" },
+            { "slug": "trucks", "label": "Trucks" }
+          ]
+        },
+        {
+          "slug": "parts-accessories",
+          "label": "Parts & Accessories",
+          "description": "OEM and aftermarket parts, electronics, and tires.",
+          "children": [
+            { "slug": "engines", "label": "Engines" },
+            { "slug": "body-parts", "label": "Body Parts" },
+            { "slug": "tires", "label": "Tires & Wheels" },
+            { "slug": "electronics", "label": "Electronics" }
+          ]
+        },
+        {
+          "slug": "marine",
+          "label": "Marine",
+          "description": "Boats, jet skis, and trailers.",
+          "children": [
+            { "slug": "boats", "label": "Boats" },
+            { "slug": "jet-skis", "label": "Jet Skis" },
+            { "slug": "trailers", "label": "Trailers" }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "real-estate",
+      "label": "Real Estate",
+      "description": "Residential, commercial, and land listings across the Kingdom.",
+      "icon": "building",
+      "featuredFilters": ["property_type", "location_city", "price_range"],
+      "children": [
+        { "slug": "residential-sales", "label": "Residential Sales" },
+        { "slug": "residential-rentals", "label": "Residential Rentals" },
+        { "slug": "commercial", "label": "Commercial" },
+        { "slug": "land-plots", "label": "Land & Plots" },
+        { "slug": "coliving-shared", "label": "Co-living & Shared" }
+      ]
+    },
+    {
+      "slug": "luxury",
+      "label": "Luxury",
+      "description": "Premium watches, jewelry, and collectibles.",
+      "icon": "gem",
+      "featuredFilters": ["brand", "authenticity_docs", "condition"],
+      "children": [
+        { "slug": "watches", "label": "Watches" },
+        { "slug": "jewelry", "label": "Jewelry" },
+        { "slug": "designer-bags", "label": "Designer Bags" },
+        { "slug": "collectibles", "label": "Collectibles" },
+        { "slug": "luxury-autos", "label": "Luxury Autos" }
+      ]
+    },
+    {
+      "slug": "electronics",
+      "label": "Electronics",
+      "description": "Mobiles, computers, gaming, and smart devices.",
+      "icon": "device",
+      "featuredFilters": ["brand", "model", "condition"],
+      "children": [
+        { "slug": "mobile-phones", "label": "Mobile Phones" },
+        { "slug": "laptops-computers", "label": "Laptops & Computers" },
+        { "slug": "home-entertainment", "label": "Home Entertainment" },
+        { "slug": "smart-home", "label": "Smart Home" },
+        { "slug": "gaming", "label": "Gaming" }
+      ]
+    },
+    {
+      "slug": "home-and-living",
+      "label": "Home & Living",
+      "description": "Furniture, appliances, and décor.",
+      "icon": "home",
+      "featuredFilters": ["material", "color", "condition"],
+      "children": [
+        { "slug": "furniture", "label": "Furniture" },
+        { "slug": "appliances", "label": "Appliances" },
+        { "slug": "kitchen-dining", "label": "Kitchen & Dining" },
+        { "slug": "home-decor", "label": "Home Décor" },
+        { "slug": "outdoor-garden", "label": "Outdoor & Garden" }
+      ]
+    },
+    {
+      "slug": "fashion",
+      "label": "Fashion",
+      "description": "Apparel and accessories for every occasion.",
+      "icon": "wardrobe",
+      "featuredFilters": ["size", "brand", "condition"],
+      "children": [
+        { "slug": "men", "label": "Men" },
+        { "slug": "women", "label": "Women" },
+        { "slug": "kids", "label": "Kids" },
+        { "slug": "luxury-fashion", "label": "Luxury Fashion" },
+        { "slug": "traditional-wear", "label": "Traditional Wear" }
+      ]
+    },
+    {
+      "slug": "sports-and-outdoors",
+      "label": "Sports & Outdoors",
+      "description": "Gear for fitness, adventure, and leisure.",
+      "icon": "fitness",
+      "featuredFilters": ["equipment_type", "condition", "usage_level"],
+      "children": [
+        { "slug": "fitness-equipment", "label": "Fitness Equipment" },
+        { "slug": "team-sports", "label": "Team Sports" },
+        { "slug": "outdoor-adventure", "label": "Outdoor Adventure" },
+        { "slug": "cycling", "label": "Cycling" },
+        { "slug": "water-sports", "label": "Water Sports" }
+      ]
+    },
+    {
+      "slug": "business-and-industrial",
+      "label": "Business & Industrial",
+      "description": "Machinery, tools, and wholesale supplies.",
+      "icon": "factory",
+      "featuredFilters": ["power_requirement", "usage_hours", "location_city"],
+      "children": [
+        { "slug": "heavy-machinery", "label": "Heavy Machinery" },
+        { "slug": "tools-hardware", "label": "Tools & Hardware" },
+        { "slug": "office-equipment", "label": "Office Equipment" },
+        { "slug": "industrial-supplies", "label": "Industrial Supplies" },
+        { "slug": "wholesale-lots", "label": "Wholesale Lots" }
+      ]
+    },
+    {
+      "slug": "services",
+      "label": "Services",
+      "description": "Professional and household services with city coverage.",
+      "icon": "handshake",
+      "featuredFilters": ["service_type", "coverage_city", "availability"],
+      "children": [
+        { "slug": "automotive-services", "label": "Automotive Services" },
+        { "slug": "home-services", "label": "Home Services" },
+        { "slug": "professional-services", "label": "Professional Services" },
+        { "slug": "events-catering", "label": "Events & Catering" },
+        { "slug": "logistics-delivery", "label": "Logistics & Delivery" }
+      ]
+    }
+  ]
+}

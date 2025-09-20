@@ -1,0 +1,92 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Mazad Vehicles",
+  "type": "object",
+  "required": ["version", "brands"],
+  "additionalProperties": false,
+  "properties": {
+    "version": { "type": "string" },
+    "generatedAt": { "type": "string" },
+    "brands": {
+      "type": "array",
+      "minItems": 1,
+      "items": { "$ref": "#/definitions/brand" }
+    }
+  },
+  "definitions": {
+    "brand": {
+      "type": "object",
+      "required": ["brand", "label", "origin", "popularInKsa", "models"],
+      "additionalProperties": false,
+      "properties": {
+        "brand": { "type": "string", "pattern": "^[a-z0-9-]+$" },
+        "label": { "type": "string" },
+        "origin": { "type": "string" },
+        "popularInKsa": { "type": "boolean" },
+        "models": {
+          "type": "array",
+          "minItems": 1,
+          "items": { "$ref": "#/definitions/model" }
+        }
+      }
+    },
+    "model": {
+      "type": "object",
+      "required": ["model", "label", "bodyType", "year_min", "year_max", "trims", "condition"],
+      "additionalProperties": false,
+      "properties": {
+        "model": { "type": "string", "pattern": "^[a-z0-9-]+$" },
+        "label": { "type": "string" },
+        "bodyType": { "type": "string" },
+        "year_min": { "type": "integer" },
+        "year_max": { "type": "integer" },
+        "trims": {
+          "type": "array",
+          "minItems": 1,
+          "items": { "$ref": "#/definitions/trim" }
+        },
+        "condition": { "$ref": "#/definitions/condition" }
+      }
+    },
+    "trim": {
+      "type": "object",
+      "required": ["trim", "label", "years"],
+      "additionalProperties": false,
+      "properties": {
+        "trim": { "type": "string", "pattern": "^[a-z0-9-]+$" },
+        "label": { "type": "string" },
+        "engine": { "type": "string" },
+        "drivetrain": { "type": "string" },
+        "transmission": { "type": "string" },
+        "fuel": { "type": "string" },
+        "years": {
+          "type": "array",
+          "items": { "type": "integer" }
+        }
+      }
+    },
+    "condition": {
+      "type": "object",
+      "required": ["options", "usedOnlyAttributes"],
+      "additionalProperties": false,
+      "properties": {
+        "options": {
+          "type": "array",
+          "items": { "type": "string" }
+        },
+        "usedOnlyAttributes": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["key", "label"],
+            "additionalProperties": false,
+            "properties": {
+              "key": { "type": "string" },
+              "label": { "type": "string" }
+            }
+          }
+        }
+      }
+    }
+  }
+}
