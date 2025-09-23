@@ -1,0 +1,18 @@
+brand,model,label,body_type,year_start,year_end
+toyota,land-cruiser,Land Cruiser,SUV,2016,2024
+toyota,camry,Camry,Sedan,2014,2024
+toyota,corolla,Corolla,Sedan,2015,2024
+nissan,patrol,Patrol,SUV,2015,2024
+nissan,x-trail,X-Trail,SUV,2014,2024
+hyundai,sonata,Sonata,Sedan,2015,2024
+hyundai,tucson,Tucson,SUV,2015,2024
+kia,cerato,Cerato,Sedan,2016,2024
+kia,sportage,Sportage,SUV,2016,2024
+ford,f-150,F-150,Pickup,2015,2024
+ford,expedition,Expedition,SUV,2015,2024
+lexus,lx,LX,SUV,2016,2024
+lexus,es,ES,Sedan,2016,2024
+bmw,series-5,5 Series,Sedan,2016,2024
+bmw,x5,X5,SUV,2016,2024
+mercedes-benz,e-class,E-Class,Sedan,2016,2024
+mercedes-benz,gle,GLE,SUV,2016,2024

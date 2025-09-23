@@ -1,0 +1,974 @@
+{
+  "version": "2024-06-01",
+  "generatedAt": "2025-09-20T18:59:42.482Z",
+  "brands": [
+    {
+      "brand": "toyota",
+      "label": "Toyota",
+      "origin": "Japan",
+      "popularInKsa": true,
+      "models": [
+        {
+          "model": "camry",
+          "label": "Camry",
+          "bodyType": "Sedan",
+          "year_min": 2014,
+          "year_max": 2024,
+          "trims": [
+            {
+              "trim": "se",
+              "label": "SE",
+              "engine": "2.5L I4",
+              "drivetrain": "FWD",
+              "transmission": "Automatic",
+              "fuel": "Petrol",
+              "years": [
+                2024
+              ]
+            },
+            {
+              "trim": "xse",
+              "label": "XSE",
+              "engine": "3.5L V6",
+              "drivetrain": "FWD",
+              "transmission": "Automatic",
+              "fuel": "Petrol",
+              "years": [
+                2023
+              ]
+            }
+          ],
+          "condition": {
+            "options": [
+              "new",
+              "used"
+            ],
+            "usedOnlyAttributes": [
+              {
+                "key": "mileage_km",
+                "label": "Mileage (km)"
+              },
+              {
+                "key": "owners_count",
+                "label": "Number of owners"
+              },
+              {
+                "key": "accident_history",
+                "label": "Accident history"
+              },
+              {
+                "key": "warranty_status",
+                "label": "Warranty status"
+              },
+              {
+                "key": "service_history",
+                "label": "Service history"
+              }
+            ]
+          }
+        },
+        {
+          "model": "corolla",
+          "label": "Corolla",
+          "bodyType": "Sedan",
+          "year_min": 2015,
+          "year_max": 2024,
+          "trims": [
+            {
+              "trim": "le",
+              "label": "LE",
+              "engine": "1.8L I4",
+              "drivetrain": "FWD",
+              "transmission": "Automatic",
+              "fuel": "Petrol",
+              "years": [
+                2024
+              ]
+            },
+            {
+              "trim": "hybrid",
+              "label": "Hybrid",
+              "engine": "1.8L Hybrid",
+              "drivetrain": "FWD",
+              "transmission": "Automatic",
+              "fuel": "Hybrid",
+              "years": [
+                2023
+              ]
+            }
+          ],
+          "condition": {
+            "options": [
+              "new",
+              "used"
+            ],
+            "usedOnlyAttributes": [
+              {
+                "key": "mileage_km",
+                "label": "Mileage (km)"
+              },
+              {
+                "key": "owners_count",
+                "label": "Number of owners"
+              },
+              {
+                "key": "accident_history",
+                "label": "Accident history"
+              },
+              {
+                "key": "warranty_status",
+                "label": "Warranty status"
+              },
+              {
+                "key": "service_history",
+                "label": "Service history"
+              }
+            ]
+          }
+        },
+        {
+          "model": "land-cruiser",
+          "label": "Land Cruiser",
+          "bodyType": "SUV",
+          "year_min": 2016,
+          "year_max": 2024,
+          "trims": [
+            {
+              "trim": "gxr-v6",
+              "label": "GXR V6",
+              "engine": "4.0L V6",
+              "drivetrain": "4WD",
+              "transmission": "Automatic",
+              "fuel": "Petrol",
+              "years": [
+                2024
+              ]
+            },
+            {
+              "trim": "vxr-v8",
+              "label": "VXR V8",
+              "engine": "5.7L V8",
+              "drivetrain": "4WD",
+              "transmission": "Automatic",
+              "fuel": "Petrol",
+              "years": [
+                2024
+              ]
+            },
+            {
+              "trim": "exr",
+              "label": "EXR",
+              "engine": "4.0L V6",
+              "drivetrain": "4WD",
+              "transmission": "Automatic",
+              "fuel": "Petrol",
+              "years": [
+                2023
+              ]
+            }
+          ],
+          "condition": {
+            "options": [
+              "new",
+              "used"
+            ],
+            "usedOnlyAttributes": [
+              {
+                "key": "mileage_km",
+                "label": "Mileage (km)"
+              },
+              {
+                "key": "owners_count",
+                "label": "Number of owners"
+              },
+              {
+                "key": "accident_history",
+                "label": "Accident history"
+              },
+              {
+                "key": "warranty_status",
+                "label": "Warranty status"
+              },
+              {
+                "key": "service_history",
+                "label": "Service history"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "brand": "nissan",
+      "label": "Nissan",
+      "origin": "Japan",
+      "popularInKsa": true,
+      "models": [
+        {
+          "model": "patrol",
+          "label": "Patrol",
+          "bodyType": "SUV",
+          "year_min": 2015,
+          "year_max": 2024,
+          "trims": [
+            {
+              "trim": "se-titanium",
+              "label": "SE Titanium",
+              "engine": "5.6L V8",
+              "drivetrain": "4WD",
+              "transmission": "Automatic",
+              "fuel": "Petrol",
+              "years": [
+                2024
+              ]
+            },
+            {
+              "trim": "le-platinum",
+              "label": "LE Platinum",
+              "engine": "5.6L V8",
+              "drivetrain": "4WD",
+              "transmission": "Automatic",
+              "fuel": "Petrol",
+              "years": [
+                2023
+              ]
+            }
+          ],
+          "condition": {
+            "options": [
+              "new",
+              "used"
+            ],
+            "usedOnlyAttributes": [
+              {
+                "key": "mileage_km",
+                "label": "Mileage (km)"
+              },
+              {
+                "key": "owners_count",
+                "label": "Number of owners"
+              },
+              {
+                "key": "accident_history",
+                "label": "Accident history"
+              },
+              {
+                "key": "warranty_status",
+                "label": "Warranty status"
+              },
+              {
+                "key": "service_history",
+                "label": "Service history"
+              }
+            ]
+          }
+        },
+        {
+          "model": "x-trail",
+          "label": "X-Trail",
+          "bodyType": "SUV",
+          "year_min": 2014,
+          "year_max": 2024,
+          "trims": [
+            {
+              "trim": "sv",
+              "label": "SV",
+              "engine": "2.5L I4",
+              "drivetrain": "AWD",
+              "transmission": "Automatic",
+              "fuel": "Petrol",
+              "years": [
+                2024
+              ]
+            }
+          ],
+          "condition": {
+            "options": [
+              "new",
+              "used"
+            ],
+            "usedOnlyAttributes": [
+              {
+                "key": "mileage_km",
+                "label": "Mileage (km)"
+              },
+              {
+                "key": "owners_count",
+                "label": "Number of owners"
+              },
+              {
+                "key": "accident_history",
+                "label": "Accident history"
+              },
+              {
+                "key": "warranty_status",
+                "label": "Warranty status"
+              },
+              {
+                "key": "service_history",
+                "label": "Service history"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "brand": "hyundai",
+      "label": "Hyundai",
+      "origin": "South Korea",
+      "popularInKsa": true,
+      "models": [
+        {
+          "model": "sonata",
+          "label": "Sonata",
+          "bodyType": "Sedan",
+          "year_min": 2015,
+          "year_max": 2024,
+          "trims": [
+            {
+              "trim": "smart",
+              "label": "Smart",
+              "engine": "2.5L I4",
+              "drivetrain": "FWD",
+              "transmission": "Automatic",
+              "fuel": "Petrol",
+              "years": [
+                2024
+              ]
+            },
+            {
+              "trim": "hybrid",
+              "label": "Hybrid",
+              "engine": "2.0L Hybrid",
+              "drivetrain": "FWD",
+              "transmission": "Automatic",
+              "fuel": "Hybrid",
+              "years": [
+                2023
+              ]
+            }
+          ],
+          "condition": {
+            "options": [
+              "new",
+              "used"
+            ],
+            "usedOnlyAttributes": [
+              {
+                "key": "mileage_km",
+                "label": "Mileage (km)"
+              },
+              {
+                "key": "owners_count",
+                "label": "Number of owners"
+              },
+              {
+                "key": "accident_history",
+                "label": "Accident history"
+              },
+              {
+                "key": "warranty_status",
+                "label": "Warranty status"
+              },
+              {
+                "key": "service_history",
+                "label": "Service history"
+              }
+            ]
+          }
+        },
+        {
+          "model": "tucson",
+          "label": "Tucson",
+          "bodyType": "SUV",
+          "year_min": 2015,
+          "year_max": 2024,
+          "trims": [
+            {
+              "trim": "gls",
+              "label": "GLS",
+              "engine": "2.5L I4",
+              "drivetrain": "AWD",
+              "transmission": "Automatic",
+              "fuel": "Petrol",
+              "years": [
+                2024
+              ]
+            }
+          ],
+          "condition": {
+            "options": [
+              "new",
+              "used"
+            ],
+            "usedOnlyAttributes": [
+              {
+                "key": "mileage_km",
+                "label": "Mileage (km)"
+              },
+              {
+                "key": "owners_count",
+                "label": "Number of owners"
+              },
+              {
+                "key": "accident_history",
+                "label": "Accident history"
+              },
+              {
+                "key": "warranty_status",
+                "label": "Warranty status"
+              },
+              {
+                "key": "service_history",
+                "label": "Service history"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "brand": "kia",
+      "label": "Kia",
+      "origin": "South Korea",
+      "popularInKsa": true,
+      "models": [
+        {
+          "model": "cerato",
+          "label": "Cerato",
+          "bodyType": "Sedan",
+          "year_min": 2016,
+          "year_max": 2024,
+          "trims": [
+            {
+              "trim": "ex",
+              "label": "EX",
+              "engine": "2.0L I4",
+              "drivetrain": "FWD",
+              "transmission": "Automatic",
+              "fuel": "Petrol",
+              "years": [
+                2024
+              ]
+            },
+            {
+              "trim": "gt-line",
+              "label": "GT Line",
+              "engine": "1.6L Turbo",
+              "drivetrain": "FWD",
+              "transmission": "Automatic",
+              "fuel": "Petrol",
+              "years": [
+                2023
+              ]
+            }
+          ],
+          "condition": {
+            "options": [
+              "new",
+              "used"
+            ],
+            "usedOnlyAttributes": [
+              {
+                "key": "mileage_km",
+                "label": "Mileage (km)"
+              },
+              {
+                "key": "owners_count",
+                "label": "Number of owners"
+              },
+              {
+                "key": "accident_history",
+                "label": "Accident history"
+              },
+              {
+                "key": "warranty_status",
+                "label": "Warranty status"
+              },
+              {
+                "key": "service_history",
+                "label": "Service history"
+              }
+            ]
+          }
+        },
+        {
+          "model": "sportage",
+          "label": "Sportage",
+          "bodyType": "SUV",
+          "year_min": 2016,
+          "year_max": 2024,
+          "trims": [
+            {
+              "trim": "gt",
+              "label": "GT",
+              "engine": "1.6L Turbo",
+              "drivetrain": "AWD",
+              "transmission": "Automatic",
+              "fuel": "Petrol",
+              "years": [
+                2024
+              ]
+            }
+          ],
+          "condition": {
+            "options": [
+              "new",
+              "used"
+            ],
+            "usedOnlyAttributes": [
+              {
+                "key": "mileage_km",
+                "label": "Mileage (km)"
+              },
+              {
+                "key": "owners_count",
+                "label": "Number of owners"
+              },
+              {
+                "key": "accident_history",
+                "label": "Accident history"
+              },
+              {
+                "key": "warranty_status",
+                "label": "Warranty status"
+              },
+              {
+                "key": "service_history",
+                "label": "Service history"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "brand": "ford",
+      "label": "Ford",
+      "origin": "USA",
+      "popularInKsa": true,
+      "models": [
+        {
+          "model": "expedition",
+          "label": "Expedition",
+          "bodyType": "SUV",
+          "year_min": 2015,
+          "year_max": 2024,
+          "trims": [
+            {
+              "trim": "limited",
+              "label": "Limited",
+              "engine": "3.5L EcoBoost",
+              "drivetrain": "4WD",
+              "transmission": "Automatic",
+              "fuel": "Petrol",
+              "years": [
+                2024
+              ]
+            }
+          ],
+          "condition": {
+            "options": [
+              "new",
+              "used"
+            ],
+            "usedOnlyAttributes": [
+              {
+                "key": "mileage_km",
+                "label": "Mileage (km)"
+              },
+              {
+                "key": "owners_count",
+                "label": "Number of owners"
+              },
+              {
+                "key": "accident_history",
+                "label": "Accident history"
+              },
+              {
+                "key": "warranty_status",
+                "label": "Warranty status"
+              },
+              {
+                "key": "service_history",
+                "label": "Service history"
+              }
+            ]
+          }
+        },
+        {
+          "model": "f-150",
+          "label": "F-150",
+          "bodyType": "Pickup",
+          "year_min": 2015,
+          "year_max": 2024,
+          "trims": [
+            {
+              "trim": "lariet",
+              "label": "Lariat",
+              "engine": "3.5L EcoBoost",
+              "drivetrain": "4WD",
+              "transmission": "Automatic",
+              "fuel": "Petrol",
+              "years": [
+                2024
+              ]
+            },
+            {
+              "trim": "platinum",
+              "label": "Platinum",
+              "engine": "5.0L V8",
+              "drivetrain": "4WD",
+              "transmission": "Automatic",
+              "fuel": "Petrol",
+              "years": [
+                2023
+              ]
+            }
+          ],
+          "condition": {
+            "options": [
+              "new",
+              "used"
+            ],
+            "usedOnlyAttributes": [
+              {
+                "key": "mileage_km",
+                "label": "Mileage (km)"
+              },
+              {
+                "key": "owners_count",
+                "label": "Number of owners"
+              },
+              {
+                "key": "accident_history",
+                "label": "Accident history"
+              },
+              {
+                "key": "warranty_status",
+                "label": "Warranty status"
+              },
+              {
+                "key": "service_history",
+                "label": "Service history"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "brand": "lexus",
+      "label": "Lexus",
+      "origin": "Japan",
+      "popularInKsa": true,
+      "models": [
+        {
+          "model": "es",
+          "label": "ES",
+          "bodyType": "Sedan",
+          "year_min": 2016,
+          "year_max": 2024,
+          "trims": [
+            {
+              "trim": "350-premier",
+              "label": "350 Premier",
+              "engine": "3.5L V6",
+              "drivetrain": "FWD",
+              "transmission": "Automatic",
+              "fuel": "Petrol",
+              "years": [
+                2024
+              ]
+            }
+          ],
+          "condition": {
+            "options": [
+              "new",
+              "used"
+            ],
+            "usedOnlyAttributes": [
+              {
+                "key": "mileage_km",
+                "label": "Mileage (km)"
+              },
+              {
+                "key": "owners_count",
+                "label": "Number of owners"
+              },
+              {
+                "key": "accident_history",
+                "label": "Accident history"
+              },
+              {
+                "key": "warranty_status",
+                "label": "Warranty status"
+              },
+              {
+                "key": "service_history",
+                "label": "Service history"
+              }
+            ]
+          }
+        },
+        {
+          "model": "lx",
+          "label": "LX",
+          "bodyType": "SUV",
+          "year_min": 2016,
+          "year_max": 2024,
+          "trims": [
+            {
+              "trim": "600-signature",
+              "label": "600 Signature",
+              "engine": "3.5L Twin-Turbo V6",
+              "drivetrain": "4WD",
+              "transmission": "Automatic",
+              "fuel": "Petrol",
+              "years": [
+                2024
+              ]
+            }
+          ],
+          "condition": {
+            "options": [
+              "new",
+              "used"
+            ],
+            "usedOnlyAttributes": [
+              {
+                "key": "mileage_km",
+                "label": "Mileage (km)"
+              },
+              {
+                "key": "owners_count",
+                "label": "Number of owners"
+              },
+              {
+                "key": "accident_history",
+                "label": "Accident history"
+              },
+              {
+                "key": "warranty_status",
+                "label": "Warranty status"
+              },
+              {
+                "key": "service_history",
+                "label": "Service history"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "brand": "bmw",
+      "label": "BMW",
+      "origin": "Germany",
+      "popularInKsa": true,
+      "models": [
+        {
+          "model": "series-5",
+          "label": "5 Series",
+          "bodyType": "Sedan",
+          "year_min": 2016,
+          "year_max": 2024,
+          "trims": [
+            {
+              "trim": "530i",
+              "label": "530i",
+              "engine": "2.0L Turbo",
+              "drivetrain": "RWD",
+              "transmission": "Automatic",
+              "fuel": "Petrol",
+              "years": [
+                2024
+              ]
+            }
+          ],
+          "condition": {
+            "options": [
+              "new",
+              "used"
+            ],
+            "usedOnlyAttributes": [
+              {
+                "key": "mileage_km",
+                "label": "Mileage (km)"
+              },
+              {
+                "key": "owners_count",
+                "label": "Number of owners"
+              },
+              {
+                "key": "accident_history",
+                "label": "Accident history"
+              },
+              {
+                "key": "warranty_status",
+                "label": "Warranty status"
+              },
+              {
+                "key": "service_history",
+                "label": "Service history"
+              }
+            ]
+          }
+        },
+        {
+          "model": "x5",
+          "label": "X5",
+          "bodyType": "SUV",
+          "year_min": 2016,
+          "year_max": 2024,
+          "trims": [
+            {
+              "trim": "xdrive40i",
+              "label": "xDrive40i",
+              "engine": "3.0L Turbo",
+              "drivetrain": "AWD",
+              "transmission": "Automatic",
+              "fuel": "Petrol",
+              "years": [
+                2024
+              ]
+            }
+          ],
+          "condition": {
+            "options": [
+              "new",
+              "used"
+            ],
+            "usedOnlyAttributes": [
+              {
+                "key": "mileage_km",
+                "label": "Mileage (km)"
+              },
+              {
+                "key": "owners_count",
+                "label": "Number of owners"
+              },
+              {
+                "key": "accident_history",
+                "label": "Accident history"
+              },
+              {
+                "key": "warranty_status",
+                "label": "Warranty status"
+              },
+              {
+                "key": "service_history",
+                "label": "Service history"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "brand": "mercedes-benz",
+      "label": "Mercedes-Benz",
+      "origin": "Germany",
+      "popularInKsa": true,
+      "models": [
+        {
+          "model": "e-class",
+          "label": "E-Class",
+          "bodyType": "Sedan",
+          "year_min": 2016,
+          "year_max": 2024,
+          "trims": [
+            {
+              "trim": "e200",
+              "label": "E 200",
+              "engine": "2.0L Turbo",
+              "drivetrain": "RWD",
+              "transmission": "Automatic",
+              "fuel": "Petrol",
+              "years": [
+                2024
+              ]
+            }
+          ],
+          "condition": {
+            "options": [
+              "new",
+              "used"
+            ],
+            "usedOnlyAttributes": [
+              {
+                "key": "mileage_km",
+                "label": "Mileage (km)"
+              },
+              {
+                "key": "owners_count",
+                "label": "Number of owners"
+              },
+              {
+                "key": "accident_history",
+                "label": "Accident history"
+              },
+              {
+                "key": "warranty_status",
+                "label": "Warranty status"
+              },
+              {
+                "key": "service_history",
+                "label": "Service history"
+              }
+            ]
+          }
+        },
+        {
+          "model": "gle",
+          "label": "GLE",
+          "bodyType": "SUV",
+          "year_min": 2016,
+          "year_max": 2024,
+          "trims": [
+            {
+              "trim": "gle450",
+              "label": "GLE 450",
+              "engine": "3.0L Turbo",
+              "drivetrain": "AWD",
+              "transmission": "Automatic",
+              "fuel": "Petrol",
+              "years": [
+                2024
+              ]
+            }
+          ],
+          "condition": {
+            "options": [
+              "new",
+              "used"
+            ],
+            "usedOnlyAttributes": [
+              {
+                "key": "mileage_km",
+                "label": "Mileage (km)"
+              },
+              {
+                "key": "owners_count",
+                "label": "Number of owners"
+              },
+              {
+                "key": "accident_history",
+                "label": "Accident history"
+              },
+              {
+                "key": "warranty_status",
+                "label": "Warranty status"
+              },
+              {
+                "key": "service_history",
+                "label": "Service history"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

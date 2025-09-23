@@ -1,0 +1,24 @@
+{
+  "common": {
+    "siteName": "Mazad.com",
+    "tagline": "Saudi Marketplace for Trusted Auctions",
+    "language": "English"
+  },
+  "navigation": {
+    "categories": "Categories",
+    "searchPlaceholder": "Search Mazad...",
+    "sell": "Sell",
+    "login": "Sign In"
+  },
+  "categories": {
+    "vehicles": "Vehicles",
+    "real-estate": "Real Estate",
+    "luxury": "Luxury",
+    "electronics": "Electronics",
+    "home-and-living": "Home & Living",
+    "fashion": "Fashion",
+    "sports-and-outdoors": "Sports & Outdoors",
+    "business-and-industrial": "Business & Industrial",
+    "services": "Services"
+  }
+}

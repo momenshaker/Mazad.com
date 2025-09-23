@@ -1,0 +1,24 @@
+{
+  "common": {
+    "siteName": "مزاد.كوم",
+    "tagline": "منصة المزادات الموثوقة في السعودية",
+    "language": "العربية"
+  },
+  "navigation": {
+    "categories": "التصنيفات",
+    "searchPlaceholder": "ابحث في مزاد...",
+    "sell": "بيع",
+    "login": "تسجيل الدخول"
+  },
+  "categories": {
+    "vehicles": "مركبات",
+    "real-estate": "عقار",
+    "luxury": "فاخر",
+    "electronics": "إلكترونيات",
+    "home-and-living": "المنزل والمعيشة",
+    "fashion": "أزياء",
+    "sports-and-outdoors": "الرياضة والهواء الطلق",
+    "business-and-industrial": "أعمال وصناعة",
+    "services": "خدمات"
+  }
+}

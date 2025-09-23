@@ -1,0 +1,26 @@
+brand,model,trim,trim_label,year,engine,drivetrain,transmission,fuel
+toyota,land-cruiser,gxr-v6,GXR V6,2024,4.0L V6,4WD,Automatic,Petrol
+toyota,land-cruiser,vxr-v8,VXR V8,2024,5.7L V8,4WD,Automatic,Petrol
+toyota,land-cruiser,exr,EXR,2023,4.0L V6,4WD,Automatic,Petrol
+toyota,camry,se,SE,2024,2.5L I4,FWD,Automatic,Petrol
+toyota,camry,xse,XSE,2023,3.5L V6,FWD,Automatic,Petrol
+toyota,corolla,le,LE,2024,1.8L I4,FWD,Automatic,Petrol
+toyota,corolla,hybrid,Hybrid,2023,1.8L Hybrid,FWD,Automatic,Hybrid
+nissan,patrol,se-titanium,SE Titanium,2024,5.6L V8,4WD,Automatic,Petrol
+nissan,patrol,le-platinum,LE Platinum,2023,5.6L V8,4WD,Automatic,Petrol
+nissan,x-trail,sv,SV,2024,2.5L I4,AWD,Automatic,Petrol
+hyundai,sonata,smart,Smart,2024,2.5L I4,FWD,Automatic,Petrol
+hyundai,sonata,hybrid,Hybrid,2023,2.0L Hybrid,FWD,Automatic,Hybrid
+hyundai,tucson,gls,GLS,2024,2.5L I4,AWD,Automatic,Petrol
+kia,cerato,ex,EX,2024,2.0L I4,FWD,Automatic,Petrol
+kia,cerato,gt-line,GT Line,2023,1.6L Turbo,FWD,Automatic,Petrol
+kia,sportage,gt,GT,2024,1.6L Turbo,AWD,Automatic,Petrol
+ford,f-150,lariet,Lariat,2024,3.5L EcoBoost,4WD,Automatic,Petrol
+ford,f-150,platinum,Platinum,2023,5.0L V8,4WD,Automatic,Petrol
+ford,expedition,limited,Limited,2024,3.5L EcoBoost,4WD,Automatic,Petrol
+lexus,lx,600-signature,600 Signature,2024,3.5L Twin-Turbo V6,4WD,Automatic,Petrol
+lexus,es,350-premier,350 Premier,2024,3.5L V6,FWD,Automatic,Petrol
+bmw,series-5,530i,530i,2024,2.0L Turbo,RWD,Automatic,Petrol
+bmw,x5,xdrive40i,xDrive40i,2024,3.0L Turbo,AWD,Automatic,Petrol
+mercedes-benz,e-class,e200,E 200,2024,2.0L Turbo,RWD,Automatic,Petrol
+mercedes-benz,gle,gle450,GLE 450,2024,3.0L Turbo,AWD,Automatic,Petrol

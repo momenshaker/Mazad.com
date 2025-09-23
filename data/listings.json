@@ -1,0 +1,415 @@
+{
+  "version": "2024-06-15",
+  "listings": [
+    {
+      "id": "listing-land-cruiser",
+      "title": "2023 Toyota Land Cruiser VXR",
+      "categorySlug": "vehicles",
+      "subcategorySlug": "cars",
+      "brandSlug": "toyota",
+      "brandLabel": "Toyota",
+      "modelSlug": "land-cruiser",
+      "modelLabel": "Land Cruiser",
+      "year": 2023,
+      "trim": "vxr",
+      "trimLabel": "VXR",
+      "bodyType": "SUV",
+      "transmission": "10-speed Automatic",
+      "drivetrain": "4WD",
+      "fuelType": "Petrol",
+      "exteriorColor": "Pearl White",
+      "interiorColor": "Tan Leather",
+      "priceSar": 412000,
+      "city": "Riyadh",
+      "citySlug": "riyadh",
+      "condition": "used",
+      "mileageKm": 18000,
+      "certified": true,
+      "owners": 1,
+      "accidentHistory": "no-accidents",
+      "warrantyStatus": "manufacturer",
+      "description": "Flagship SUV with dealership service history, one owner, and Mazad Certified inspection completed in May 2024.",
+      "features": [
+        "Adaptive Cruise Control",
+        "360° Camera",
+        "Ventilated Seats",
+        "Apple CarPlay",
+        "Front & Rear Parking Sensors"
+      ],
+      "photos": [
+        { "id": "front-angle", "caption": "Exterior front angle" },
+        { "id": "interior", "caption": "Cabin overview" },
+        { "id": "rear", "caption": "Rear profile" }
+      ],
+      "inspection": {
+        "certified": true,
+        "inspectionDate": "2024-05-12",
+        "inspector": "Najm Inspections",
+        "summary": "Vehicle passed 210-point checklist with no major findings.",
+        "checklist": [
+          { "item": "Exterior body", "status": "pass" },
+          { "item": "Interior condition", "status": "pass" },
+          { "item": "Mechanical systems", "status": "pass" },
+          { "item": "Service records", "status": "pass" }
+        ]
+      },
+      "seller": {
+        "name": "Elite Motors KSA",
+        "rating": 4.9,
+        "totalSales": 128,
+        "responseTime": "Under 1 hour",
+        "verified": true
+      },
+      "relatedListingIds": [
+        "listing-prado-signature",
+        "listing-hilux-gr",
+        "listing-camry-limited",
+        "listing-rav4-hybrid"
+      ]
+    },
+    {
+      "id": "listing-prado-signature",
+      "title": "2022 Toyota Land Cruiser Prado Signature",
+      "categorySlug": "vehicles",
+      "subcategorySlug": "cars",
+      "brandSlug": "toyota",
+      "brandLabel": "Toyota",
+      "modelSlug": "land-cruiser-prado",
+      "modelLabel": "Land Cruiser Prado",
+      "year": 2022,
+      "trim": "signature",
+      "trimLabel": "Signature",
+      "bodyType": "SUV",
+      "transmission": "6-speed Automatic",
+      "drivetrain": "4WD",
+      "fuelType": "Petrol",
+      "exteriorColor": "Graphite Grey",
+      "interiorColor": "Beige Leather",
+      "priceSar": 265000,
+      "city": "Jeddah",
+      "citySlug": "jeddah",
+      "condition": "used",
+      "mileageKm": 32000,
+      "certified": true,
+      "owners": 1,
+      "accidentHistory": "no-accidents",
+      "warrantyStatus": "extended",
+      "description": "Well-maintained Prado with full off-road package and Mazad Certified status.",
+      "features": [
+        "KDSS Suspension",
+        "Rear Entertainment",
+        "Leather Seating",
+        "Multi-terrain Select"
+      ],
+      "photos": [
+        { "id": "side", "caption": "Side profile" },
+        { "id": "dashboard", "caption": "Dashboard controls" }
+      ],
+      "inspection": {
+        "certified": true,
+        "inspectionDate": "2024-04-28",
+        "inspector": "Najm Inspections",
+        "summary": "Minor wear on tires noted; recommendation to rotate.",
+        "checklist": [
+          { "item": "Tire tread", "status": "attention", "notes": "Rotate within 5,000 km" },
+          { "item": "Braking system", "status": "pass" },
+          { "item": "Suspension", "status": "pass" }
+        ]
+      },
+      "seller": {
+        "name": "Elite Motors KSA",
+        "rating": 4.9,
+        "totalSales": 128,
+        "responseTime": "Under 1 hour",
+        "verified": true
+      },
+      "relatedListingIds": [
+        "listing-land-cruiser",
+        "listing-hilux-gr",
+        "listing-camry-limited",
+        "listing-rav4-hybrid"
+      ]
+    },
+    {
+      "id": "listing-hilux-gr",
+      "title": "2024 Toyota Hilux GR Sport",
+      "categorySlug": "vehicles",
+      "subcategorySlug": "cars",
+      "brandSlug": "toyota",
+      "brandLabel": "Toyota",
+      "modelSlug": "hilux",
+      "modelLabel": "Hilux",
+      "year": 2024,
+      "trim": "gr-sport",
+      "trimLabel": "GR Sport",
+      "bodyType": "Pickup",
+      "transmission": "6-speed Automatic",
+      "drivetrain": "4WD",
+      "fuelType": "Diesel",
+      "exteriorColor": "Emotional Red",
+      "interiorColor": "Black Fabric",
+      "priceSar": 189000,
+      "city": "Dammam",
+      "citySlug": "dammam",
+      "condition": "new",
+      "certified": false,
+      "owners": 0,
+      "accidentHistory": "no-accidents",
+      "warrantyStatus": "manufacturer",
+      "description": "Brand new Hilux GR Sport with delivery mileage and full warranty.",
+      "features": [
+        "GR Sport Styling",
+        "Rear Differential Lock",
+        "LED Headlights",
+        "Smart Entry"
+      ],
+      "photos": [
+        { "id": "front", "caption": "Front fascia" },
+        { "id": "bed", "caption": "Cargo bed" }
+      ],
+      "inspection": {
+        "certified": false,
+        "summary": "Eligible for Mazad Certified inspection upon request.",
+        "checklist": []
+      },
+      "seller": {
+        "name": "Elite Motors KSA",
+        "rating": 4.9,
+        "totalSales": 128,
+        "responseTime": "Under 1 hour",
+        "verified": true
+      },
+      "relatedListingIds": [
+        "listing-land-cruiser",
+        "listing-prado-signature",
+        "listing-camry-limited",
+        "listing-rav4-hybrid"
+      ]
+    },
+    {
+      "id": "listing-camry-limited",
+      "title": "2023 Toyota Camry Limited",
+      "categorySlug": "vehicles",
+      "subcategorySlug": "cars",
+      "brandSlug": "toyota",
+      "brandLabel": "Toyota",
+      "modelSlug": "camry",
+      "modelLabel": "Camry",
+      "year": 2023,
+      "trim": "limited",
+      "trimLabel": "Limited",
+      "bodyType": "Sedan",
+      "transmission": "8-speed Automatic",
+      "drivetrain": "FWD",
+      "fuelType": "Hybrid",
+      "exteriorColor": "Midnight Black",
+      "interiorColor": "Cream Leather",
+      "priceSar": 135000,
+      "city": "Riyadh",
+      "citySlug": "riyadh",
+      "condition": "used",
+      "mileageKm": 22000,
+      "certified": false,
+      "owners": 1,
+      "accidentHistory": "minor",
+      "warrantyStatus": "manufacturer",
+      "description": "Camry Limited hybrid with comprehensive service records and advanced safety suite.",
+      "features": [
+        "Toyota Safety Sense",
+        "Panoramic Roof",
+        "Heated Seats",
+        "Wireless Charging"
+      ],
+      "photos": [
+        { "id": "front-quarter", "caption": "Front quarter view" },
+        { "id": "infotainment", "caption": "Infotainment system" }
+      ],
+      "inspection": {
+        "certified": false,
+        "summary": "Minor bumper repaint disclosed; eligible for Mazad Certified inspection.",
+        "checklist": []
+      },
+      "seller": {
+        "name": "Elite Motors KSA",
+        "rating": 4.9,
+        "totalSales": 128,
+        "responseTime": "Under 1 hour",
+        "verified": true
+      },
+      "relatedListingIds": [
+        "listing-land-cruiser",
+        "listing-prado-signature",
+        "listing-hilux-gr",
+        "listing-rav4-hybrid"
+      ]
+    },
+    {
+      "id": "listing-rav4-hybrid",
+      "title": "2024 Toyota RAV4 Hybrid XLE",
+      "categorySlug": "vehicles",
+      "subcategorySlug": "cars",
+      "brandSlug": "toyota",
+      "brandLabel": "Toyota",
+      "modelSlug": "rav4",
+      "modelLabel": "RAV4",
+      "year": 2024,
+      "trim": "xle",
+      "trimLabel": "XLE",
+      "bodyType": "SUV",
+      "transmission": "CVT",
+      "drivetrain": "AWD",
+      "fuelType": "Hybrid",
+      "exteriorColor": "Lunar Rock",
+      "interiorColor": "Black Fabric",
+      "priceSar": 155000,
+      "city": "Khobar",
+      "citySlug": "khobar",
+      "condition": "new",
+      "certified": false,
+      "owners": 0,
+      "accidentHistory": "no-accidents",
+      "warrantyStatus": "manufacturer",
+      "description": "Dealer allocation RAV4 Hybrid with delivery mileage and Toyota warranty.",
+      "features": [
+        "Hybrid Synergy Drive",
+        "Power Tailgate",
+        "Blind Spot Monitor",
+        "Dual-zone Climate"
+      ],
+      "photos": [
+        { "id": "front", "caption": "Front view" },
+        { "id": "cargo", "caption": "Cargo space" }
+      ],
+      "inspection": {
+        "certified": false,
+        "summary": "Pre-delivery inspection completed by dealer.",
+        "checklist": []
+      },
+      "seller": {
+        "name": "Elite Motors KSA",
+        "rating": 4.9,
+        "totalSales": 128,
+        "responseTime": "Under 1 hour",
+        "verified": true
+      },
+      "relatedListingIds": [
+        "listing-land-cruiser",
+        "listing-prado-signature",
+        "listing-hilux-gr",
+        "listing-camry-limited"
+      ]
+    },
+    {
+      "id": "listing-gle",
+      "title": "2024 Mercedes-Benz GLE 450",
+      "categorySlug": "vehicles",
+      "subcategorySlug": "cars",
+      "brandSlug": "mercedes-benz",
+      "brandLabel": "Mercedes-Benz",
+      "modelSlug": "gle-450",
+      "modelLabel": "GLE 450",
+      "year": 2024,
+      "trim": "amg-line",
+      "trimLabel": "AMG Line",
+      "bodyType": "SUV",
+      "transmission": "9-speed Automatic",
+      "drivetrain": "AWD",
+      "fuelType": "Mild Hybrid",
+      "exteriorColor": "Obsidian Black",
+      "interiorColor": "Black Nappa Leather",
+      "priceSar": 520000,
+      "city": "Jeddah",
+      "citySlug": "jeddah",
+      "condition": "new",
+      "certified": false,
+      "owners": 0,
+      "accidentHistory": "no-accidents",
+      "warrantyStatus": "manufacturer",
+      "description": "Brand new GLE 450 AMG Line with technology and premium plus packages.",
+      "features": [
+        "MBUX Hyperscreen",
+        "Air Suspension",
+        "Burmester Audio",
+        "Heads-up Display"
+      ],
+      "photos": [
+        { "id": "interior", "caption": "Nappa leather interior" },
+        { "id": "wheel", "caption": "AMG alloy wheels" }
+      ],
+      "inspection": {
+        "certified": false,
+        "summary": "Eligible for Mazad Certified program post 1,000 km.",
+        "checklist": []
+      },
+      "seller": {
+        "name": "Prestige Autos",
+        "rating": 4.7,
+        "totalSales": 87,
+        "responseTime": "Within 2 hours",
+        "verified": true
+      },
+      "relatedListingIds": [
+        "listing-land-cruiser",
+        "listing-prado-signature",
+        "listing-hilux-gr",
+        "listing-camry-limited"
+      ]
+    },
+    {
+      "id": "listing-cerato",
+      "title": "2024 Kia Cerato GT Line",
+      "categorySlug": "vehicles",
+      "subcategorySlug": "cars",
+      "brandSlug": "kia",
+      "brandLabel": "Kia",
+      "modelSlug": "cerato",
+      "modelLabel": "Cerato",
+      "year": 2024,
+      "trim": "gt-line",
+      "trimLabel": "GT Line",
+      "bodyType": "Sedan",
+      "transmission": "IVT",
+      "drivetrain": "FWD",
+      "fuelType": "Petrol",
+      "exteriorColor": "Snow White Pearl",
+      "interiorColor": "Black & Red",
+      "priceSar": 98000,
+      "city": "Dammam",
+      "citySlug": "dammam",
+      "condition": "new",
+      "certified": false,
+      "owners": 0,
+      "accidentHistory": "no-accidents",
+      "warrantyStatus": "manufacturer",
+      "description": "Sporty Cerato GT Line with two-tone interior and ADAS suite.",
+      "features": [
+        "Lane Keeping Assist",
+        "Sunroof",
+        "Wireless Charger",
+        "Rear Cross Traffic Alert"
+      ],
+      "photos": [
+        { "id": "front", "caption": "Front fascia" },
+        { "id": "interior", "caption": "Two-tone seats" }
+      ],
+      "inspection": {
+        "certified": false,
+        "summary": "Eligible for Mazad Certified inspection after 5,000 km.",
+        "checklist": []
+      },
+      "seller": {
+        "name": "Eastern Auto Gallery",
+        "rating": 4.6,
+        "totalSales": 64,
+        "responseTime": "Within 4 hours",
+        "verified": true
+      },
+      "relatedListingIds": [
+        "listing-hilux-gr",
+        "listing-camry-limited",
+        "listing-rav4-hybrid",
+        "listing-land-cruiser"
+      ]
+    }
+  ]
+}
